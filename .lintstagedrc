@@ -1,5 +1,5 @@
 {
   "*.md": "npm run fix-md",
-  "./.{eslint,lintstaged,prettier}rc": "npm run fix-rc",
+  "./.{eslint,husky,lintstaged,prettier}rc": "npm run fix-rc",
   "*.ts": "npm run fix-ts"
 }

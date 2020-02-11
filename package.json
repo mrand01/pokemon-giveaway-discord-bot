@@ -7,7 +7,7 @@
     "compile": "tsc",
     "lint": "npm run fix-md && npm run fix-rc && npm run fix-ts",
     "fix-md": "prettier README.md --write",
-    "fix-rc": "prettier .{eslint,lintstaged,prettier}rc --write",
+    "fix-rc": "prettier .{eslint,husky,lintstaged,prettier}rc --write",
     "fix-ts": "eslint . --ext .ts --fix"
   },
   "repository": {
@@ -32,6 +32,7 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.1",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "typescript": "^3.7.5"
