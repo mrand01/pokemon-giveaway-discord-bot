@@ -1,0 +1,25 @@
+{
+  "name": "pokemon-giveaway-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to facilitate Pokemon giveaways",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrand01/pokemon-giveaway-discord-bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Pokemon",
+    "Giveaway"
+  ],
+  "author": "Michael Randolph <mrand01@gmail.com> (https://github.com/mrand01)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mrand01/pokemon-giveaway-discord-bot/issues"
+  },
+  "homepage": "https://github.com/mrand01/pokemon-giveaway-discord-bot#readme"
+}
