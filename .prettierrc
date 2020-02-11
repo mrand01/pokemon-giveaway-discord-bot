@@ -1,0 +1,13 @@
+{
+  "endOfLine": "lf",
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": "./.{eslint,lintstaged,prettier}rc",
+      "options": { "parser": "json" }
+    }
+  ]
+}
