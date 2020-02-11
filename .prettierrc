@@ -6,7 +6,7 @@
   "arrowParens": "always",
   "overrides": [
     {
-      "files": "./.{eslint,lintstaged,prettier}rc",
+      "files": ".{eslint,lintstaged,prettier}rc",
       "options": { "parser": "json" }
     }
   ]
